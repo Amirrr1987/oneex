@@ -1,4 +1,5 @@
 .footer {
+    @extend .bg-dark;
     &__copyright {}
 
     &__item {}
