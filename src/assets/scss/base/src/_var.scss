@@ -1,0 +1,19 @@
+ 
+$body-bg: #000;
+$body-color: #111;
+$primary: #FFC107;
+$secondary: #84ff00;
+
+@font-face {
+  font-family: 'secondary';
+  src: url('../font/LaBelleAurore-Regular.ttf?61494634') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'primary';
+  src: url('../font/SpaceMono-Regular.ttf?61494634') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
