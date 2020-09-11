@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import moduleName from '@/components/Navbar.vue';
+import Navbar from '@/components/Navbar.vue';
 export default {
     name: 'Header',
     components:{
