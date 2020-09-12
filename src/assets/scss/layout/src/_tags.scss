@@ -1,6 +1,9 @@
 .footer {
     @extend .bg-dark;
-    &__copyright {}
+    @extend .text-light;
+    &__copyright {
+        background-color: darken($dark, 10%);
+    }
 
     &__item {}
 
