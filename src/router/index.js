@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/layout/home.vue'
-
+import TradeHistory from '@/layout/TradeHistory';
 Vue.use(VueRouter)
 
 const routes = [
@@ -9,6 +9,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/tradeHistory',
+    name: 'TradeHistory',
+    component: TradeHistory
   },
 ]
 

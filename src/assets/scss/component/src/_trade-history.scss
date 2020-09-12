@@ -1,0 +1,24 @@
+
+.trade-history {
+    &__body {}
+
+    &__container {
+        @extend .container;
+    }
+
+    &__head {}
+
+    &__header {}
+
+    &__row {
+        @extend .d-grid;
+        @extend .justify-content-center;
+        @extend .text-center;
+    }
+
+    &__table {
+        @extend .table;
+    }
+
+    &__title {}
+}
