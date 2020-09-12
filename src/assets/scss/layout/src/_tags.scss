@@ -1,5 +1,6 @@
 .main{
-    @extend .container;
+    @extend .pt-5;
+    @extend .pb-5;
 }
 .footer {
     @extend .bg-dark;

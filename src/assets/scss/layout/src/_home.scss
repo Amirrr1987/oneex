@@ -1,0 +1,46 @@
+.home{
+
+    &__container{
+        @extend .container;
+    }
+    &__chart {
+        grid-area: chart;
+    }
+
+    &__info {
+        grid-area: info;
+    }
+
+    &__instruments {
+        grid-area: instruments;
+    }
+
+    &__last5trade {
+        grid-area: last5trade;
+    }
+
+    &__my-order {
+        grid-area: my-order;
+    }
+
+    &__new-order {
+        grid-area: new-order;
+    }
+
+    &__order-book {
+        grid-area: order-book;
+    }
+
+    &__row{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'chart info'
+        'chart instruments'
+        'order-book new-order'
+        'my-order last5trade'
+        ;
+    }
+    
+}

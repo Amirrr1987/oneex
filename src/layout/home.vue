@@ -1,12 +1,16 @@
 <template>
   <main class="main home">
-      <Chart/>
-      <Info/>
-      <OrderBook/>
-      <Instruments/>
-      <NewOrder/>
-      <MyOrder/>
-      <Last5Trade/>
+      <div class="home__container">
+          <div class="home__row">
+            <MyOrder class="home__my-order"/>
+            <Chart class="home__chart"/>
+            <Info class="home__info"/>
+            <OrderBook class="home__order-book"/>
+            <Instruments class="home__instruments"/>
+            <NewOrder class="home__new-order"/>
+            <Last5Trade class="home__last5trade"/>
+          </div>
+      </div>
   </main>
 </template>
 
