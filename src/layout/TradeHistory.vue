@@ -3,8 +3,8 @@
     <section class="trade-history__header">
       <div class="trade-history__container">
         <div class="trade-history__row">
-          <h3 class="trade-history__title">trade history</h3>
-          <div class="trade-history__head">trade-history</div>
+          <h3 class="trade-history__title">trade history </h3>
+          <div class="trade-history__head">trade-history </div>
         </div>
       </div>
     </section>
