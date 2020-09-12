@@ -1,61 +1,66 @@
 .footer {
     @extend .bg-dark;
-    @extend .text-center;
     @extend .text-capitalize;
     @extend .pt-5;
+    @extend .text-center;
+
     &__copyright {
         background-color: darken($dark, 10%);
         @extend .pt-3;
         @extend .pb-3;
         @extend .text-light;
     }
-    &__container{
+
+    &__container {
         @extend .container;
     }
+
     &__item {
-        @extend .col-12;
         list-style-type: none;
-        @include media-breakpoint-up(sm) {
-        @extend .col-sm-6;
-        }
-        @include media-breakpoint-up(md) {
-        @extend .col-md-4;
-        }
     }
 
     &__link {
         @extend .col-12;
         @extend .text-light;
+
+
         @include media-breakpoint-up(sm) {
-        @extend .col-sm-6;
+            @extend .col-sm-6;
         }
+
         @include media-breakpoint-up(md) {
-        @extend .col-md-4;
+            @extend .col-md-4;
         }
     }
 
     &__links {
         @extend .col-12;
+
         @include media-breakpoint-up(sm) {
-        @extend .col-sm-6;
+            @extend .col-sm-6;
         }
+
         @include media-breakpoint-up(md) {
-        @extend .col-md-4;
+            @extend .col-md-2;
         }
     }
 
     &__social {
         @extend .col-12;
+
         @include media-breakpoint-up(sm) {
-        @extend .col-sm-6;
+            @extend .col-sm-6;
         }
+
         @include media-breakpoint-up(md) {
-        @extend .col-md-4;
+            @extend .col-md-2;
         }
     }
+
     &__row {
         @extend .row;
         @extend .pb-5;
+        @extend .justify-content-center;
     }
 
     &__social {}
