@@ -1,3 +1,6 @@
+.main{
+    @extend .container;
+}
 .footer {
     @extend .bg-dark;
     @extend .text-capitalize;
