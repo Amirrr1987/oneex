@@ -1,8 +1,12 @@
 .footer {
     @extend .bg-dark;
     @extend .text-light;
+    @extend .text-center;
+    @extend .text-capitalize;
     &__copyright {
         background-color: darken($dark, 10%);
+        @extend .pt-3;
+        @extend .pb-3;
     }
 
     &__item {}
