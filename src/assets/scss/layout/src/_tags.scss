@@ -3,16 +3,24 @@
     @extend .text-capitalize;
     @extend .pt-5;
     @extend .text-center;
+    @extend .text-light;
+
+    &__address {}
 
     &__copyright {
         background-color: darken($dark, 10%);
         @extend .pt-3;
         @extend .pb-3;
-        @extend .text-light;
     }
+
+    &__email {}
 
     &__container {
         @extend .container;
+    }
+
+    &__icon {
+        @extend .icon;
     }
 
     &__item {
@@ -22,7 +30,6 @@
     &__link {
         @extend .col-12;
         @extend .text-light;
-
 
         @include media-breakpoint-up(sm) {
             @extend .col-sm-6;
@@ -64,4 +71,18 @@
     }
 
     &__social {}
+
+    &__tel {}
+
+    &--instagram {
+        @extend .icon--instagram;
+    }
+
+    &--telegram {
+        @extend .icon--telegram;
+    }
+
+    &--whatsapp {
+        @extend .icon--whatsapp;
+    }
 }
