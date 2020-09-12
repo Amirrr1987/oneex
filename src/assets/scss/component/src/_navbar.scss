@@ -1,0 +1,22 @@
+.navbar {
+    @extend .nav;
+    @extend .navbar-expand-lg;
+    &__item {
+        @extend .nav-item;
+    }
+
+    &__link {
+        @extend .nav-link;
+    }
+
+    &__logo-img {
+        height: em(40px);
+    }
+
+    &__logo-link {}
+
+    &__nav {
+        @extend .navbar-nav;
+        @extend .mr-auto;
+    }
+}
