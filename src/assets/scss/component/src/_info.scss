@@ -1,0 +1,16 @@
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: em(30px);
+    background-color: #f3f7ff !important;
+    @extend .text-center;
+    @extend .p-3;
+    @extend .shadow-sm;
+
+    &__item {
+        @extend .bg-white;
+        @extend .d-block;
+        @extend .shadow-sm;
+        @extend .p-3;
+    }
+}
