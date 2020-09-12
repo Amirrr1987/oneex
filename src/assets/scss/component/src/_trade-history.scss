@@ -1,24 +1,45 @@
 
 .trade-history {
-    &__body {}
+    &__body {
+        @extend .bg-primary-light; ;
+    }
 
     &__container {
         @extend .container;
     }
 
-    &__head {}
+    &__head {
+        @extend .bg-primary;
+        @extend .text-light;
+        @extend .pt-3;
+        @extend .pb-3;
+        @extend .text-capitalize;
+        @extend .text-left;
+        @extend .pl-3;
+        @extend .shadow-sm;
+    }
 
-    &__header {}
+    &__header {
+    }
 
     &__row {
-        @extend .d-grid;
-        @extend .justify-content-center;
+        // @extend .d-grid;
+        // @extend .justify-content-center;
         @extend .text-center;
+        @extend .w-100;
     }
 
     &__table {
+        @extend .w-100;
         @extend .table;
+        @extend .table-striped;
+        @extend .table-hover;
+        @extend .table-sm;
+        @extend .shadow-sm;
     }
 
-    &__title {}
+    &__title {
+        @extend .text-capitalize;
+        @extend .text-primary;
+    }
 }

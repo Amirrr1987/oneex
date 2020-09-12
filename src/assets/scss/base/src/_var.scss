@@ -1,9 +1,15 @@
  
-// $body-bg: #f0f0f0;
-$body-color: #1f1f1f;
-$primary: #6A89CC;
-$secondary: #4ac1c7;
+// $body-bg      : #f0f0f0;
+$body-color   : #1f1f1f;
+$primary      : #6A89CC;
+$secondary    : #4ac1c7;
+$primary-dark : #154576;
+$primary-light: #f3f7ff;
 
+$theme-colors: (
+  "primary-light": $primary-light,
+  "primary-dark" : $primary-dark,
+);
 @font-face {
   font-family: 'secondary';
   src: url('../font/LaBelleAurore-Regular.ttf?61494634') format('truetype');
