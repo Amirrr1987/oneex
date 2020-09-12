@@ -2,6 +2,13 @@
     @extend .nav;
     @extend .navbar-expand-lg;
     @extend .shadow-sm;
+
+    &__container{
+        @extend .container-fluid;
+    }
+    &__icon{
+        @extend .icon;
+    }
     &__item {
         @extend .nav-item;
     }
@@ -14,6 +21,7 @@
         @extend .mr-2;
         @extend .ml-2;
         @extend .rounded;
+        @extend .text-capitalize;
     }
 
     &__logo-img {
@@ -24,6 +32,21 @@
 
     &__nav {
         @extend .navbar-nav;
+    }
+
+    &--left{
+        @extend .ml-auto;
+    }
+    &--right{
         @extend .mr-auto;
+    }
+    &--profile{
+        @extend .icon--smiley;
+    }
+    &--token{
+        @extend .pr-5;
+        @extend .pl-5;
+        @extend .bg-secondary;
+        @extend .text-light;
     }
 }
