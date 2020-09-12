@@ -1,21 +1,62 @@
 .footer {
     @extend .bg-dark;
-    @extend .text-light;
     @extend .text-center;
     @extend .text-capitalize;
+    @extend .pt-5;
     &__copyright {
         background-color: darken($dark, 10%);
         @extend .pt-3;
         @extend .pb-3;
+        @extend .text-light;
+    }
+    &__container{
+        @extend .container;
+    }
+    &__item {
+        @extend .col-12;
+        list-style-type: none;
+        @include media-breakpoint-up(sm) {
+        @extend .col-sm-6;
+        }
+        @include media-breakpoint-up(md) {
+        @extend .col-md-4;
+        }
     }
 
-    &__item {}
+    &__link {
+        @extend .col-12;
+        @extend .text-light;
+        @include media-breakpoint-up(sm) {
+        @extend .col-sm-6;
+        }
+        @include media-breakpoint-up(md) {
+        @extend .col-md-4;
+        }
+    }
 
-    &__link {}
+    &__links {
+        @extend .col-12;
+        @include media-breakpoint-up(sm) {
+        @extend .col-sm-6;
+        }
+        @include media-breakpoint-up(md) {
+        @extend .col-md-4;
+        }
+    }
 
-    &__links {}
-
-    &__row {}
+    &__social {
+        @extend .col-12;
+        @include media-breakpoint-up(sm) {
+        @extend .col-sm-6;
+        }
+        @include media-breakpoint-up(md) {
+        @extend .col-md-4;
+        }
+    }
+    &__row {
+        @extend .row;
+        @extend .pb-5;
+    }
 
     &__social {}
 }
