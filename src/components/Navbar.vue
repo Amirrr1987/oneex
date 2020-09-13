@@ -5,7 +5,7 @@
       <ul class="navbar__nav navbar--right">
           <li class="navbar__item"><router-link to="/" class="navbar__link">exchange</router-link></li>
           <li class="navbar__item"><router-link to="" class="navbar__link">transaction</router-link></li>
-          <li class="navbar__item"><router-link to="/tradeHistory" class="navbar__link">transaction</router-link></li>
+          <li class="navbar__item"><router-link to="/tradeHistory" class="navbar__link">trade history</router-link></li>
       </ul>
       <ul class="navbar__nav navbar--left">
           <li class="navbar__item"><a href="" class="navbar__link"><i class="navbar__icon navbar--profile"></i></a></li>
