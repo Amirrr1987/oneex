@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/layout/home.vue'
 import TradeHistory from '@/layout/TradeHistory';
+import Deposit from '@/layout/Deposit'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
     path: '/tradeHistory',
     name: 'TradeHistory',
     component: TradeHistory
+  },
+  {
+    path: '/deposit',
+    name: 'Deposit',
+    component: Deposit
   },
 ]
 
