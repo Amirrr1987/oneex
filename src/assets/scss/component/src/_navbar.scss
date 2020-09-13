@@ -18,10 +18,14 @@
         @extend .text-secondary;
         @extend .border;
         @extend .border-secondary;
-        @extend .mr-2;
-        @extend .ml-2;
+        @extend .mr-1;
+        @extend .ml-1;
         @extend .rounded;
         @extend .text-capitalize;
+        @extend .pr-5;
+        @extend .pl-5;
+        @extend .pt-1;
+        @extend .pb-1;
     }
 
     &__logo-img {
@@ -39,6 +43,7 @@
     }
     &--right{
         @extend .mr-auto;
+        @extend .ml-4;
     }
     &--profile{
         @extend .icon--smiley;
